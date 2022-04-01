@@ -25,6 +25,6 @@ document.getElementById('bottone').addEventListener('click', function (){
     if (somma % 2 == 0 && myValue % 2 == 0 || somma % 2 != 0 && myValue % 2 != 0){
         testo.innerHTML += ' e congratulazioni hai vinto'
     } else {
-        testo.innerHTML += ' e congratulazioni hai pareggiato'
+        testo.innerHTML += ' e congratulazioni hai perso'
     }
 })
