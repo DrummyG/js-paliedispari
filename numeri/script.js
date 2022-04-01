@@ -22,10 +22,8 @@ document.getElementById('bottone').addEventListener('click', function (){
         testo.innerHTML += 'La somma dei due numeri è dispari'
     }
 
-    if (myValue > pc){
+    if (somma % 2 == 0 && myValue % 2 == 0 || somma % 2 != 0 && myValue % 2 != 0){
         testo.innerHTML += ' e congratulazioni hai vinto'
-    } else  if(myValue < pc){
-        testo.innerHTML += ' e congratulazioni hai perso'
     } else {
         testo.innerHTML += ' e congratulazioni hai pareggiato'
     }
